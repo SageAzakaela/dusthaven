@@ -2,8 +2,8 @@
 <world version="1.0" width="1" height="1">
  <BMPToTMX>
   <tmxexportdir path="."/>
-  <rulesfile path="../../../../GitHub/DesertBase/Rules and Blends/Rules.txt"/>
-  <blendsfile path="../../../../GitHub/DesertBase/Rules and Blends/Blends.txt"/>
+  <rulesfile path="../../../DesertBase/Rules and Blends/Rules.txt"/>
+  <blendsfile path="../../../DesertBase/Rules and Blends/Blends.txt"/>
   <mapbasefile path=""/>
   <assign-maps-to-world checked="true"/>
   <warn-unknown-colors checked="true"/>
@@ -17,14 +17,14 @@
   <buildingsImage path="" generate="false"/>
  </TMXToBMP>
  <GenerateLots>
-  <exportdir path="../lots"/>
+  <exportdir path="../../../../../../Zomboid/Workshop/Dusthaven/Contents/mods/Dusthaven/media/maps/Dusthaven"/>
   <ZombieSpawnMap path="../Desert_ZombieSpawn.png"/>
   <TileDefFolder path="../../../../../../../../Program Files (x86)/Steam/steamapps/common/Project Zomboid Modding Tools/Tiles"/>
   <worldOrigin origin="0,0"/>
  </GenerateLots>
  <LuaSettings>
   <spawnPointsFile path="../lots/spawnpoints.lua"/>
-  <worldObjectsFile path=""/>
+  <worldObjectsFile path="../../../../../../Zomboid/Workshop/Dusthaven/Contents/mods/Dusthaven/media/maps/Dusthaven/objects.lua"/>
  </LuaSettings>
  <bmp path="../Desert.png" x="0" y="0" width="1" height="1"/>
  <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
@@ -116,8 +116,74 @@
  <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
  <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
  <cell x="0" y="0" map="Desert_0_0.tmx">
+  <lot x="158" y="201" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="141" y="203" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="150" y="216" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="148" y="198" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="159" y="209" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="152" y="208" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="141" y="221" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="145" y="226" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="141" y="230" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="157" y="224" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="144" y="243" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="141" y="250" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="150" y="265" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="141" y="267" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="157" y="265" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="165" y="263" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="163" y="267" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="174" y="266" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="182" y="262" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="187" y="268" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="194" y="263" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="203" y="271" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="203" y="262" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="220" y="266" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="232" y="265" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="247" y="266" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="265" y="264" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="273" y="247" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="263" y="242" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="276" y="238" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="266" y="232" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="275" y="227" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="263" y="211" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="256" y="190" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="249" y="197" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="272" y="194" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="240" y="189" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="250" y="213" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="254" y="226" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="240" y="221" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="244" y="242" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="231" y="240" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="238" y="248" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="227" y="226" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="235" y="226" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="219" y="231" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="225" y="213" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="231" y="200" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="233" y="188" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="218" y="186" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="218" y="175" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="205" y="167" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="198" y="158" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="178" y="162" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="170" y="172" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="170" y="185" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="173" y="200" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="167" y="200" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="159" y="193" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
+  <lot x="154" y="193" level="0" width="3" height="3" map="../buildings/jumbotree.tbx"/>
   <object type="SpawnPoint" x="142" y="258" level="0" width="1" height="1">
    <template name="SpawnPoint"/>
+  </object>
+  <object group="WaterFlow" type="WaterFlow" x="246" y="290" level="0" width="1" height="1">
+   <template name="WaterFlowW"/>
+  </object>
+  <object group="WaterFlow" type="WaterFlow" x="292" y="230" level="0" width="1" height="1">
+   <template name="WaterFlowS"/>
   </object>
  </cell>
 </world>
